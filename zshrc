@@ -17,6 +17,7 @@ alias ll='ls -l --color=auto'
 alias up='sudo apt-get update
 sudo apt-get upgrade -y'
 alias myip="curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'"
+alias oslab='ssh -i ~/.ssh/okeanos root@snf-741429.vm.okeanos.grnet.gr'
 
 mkcd()
 {
