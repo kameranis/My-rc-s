@@ -6,7 +6,7 @@ cp basic.vim ~/.vim_runtime/vimrcs/basic.vim
 # zsh
 sudo apt-get install zsh
 sudo apt-get install wget
-sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 chsh -s /bin/zsh
 cp zshrc ~/.zshrc
 cp kameranis.zsh-theme ~/.oh-my-zsh/themes/
